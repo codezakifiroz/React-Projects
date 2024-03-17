@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root{
+  --button-color: #D01C28;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 1em 3em;
+  align-items: center;
+
+}
+
+
+nav ul{
+  display: flex;
+  gap: 1.5em;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+
+nav button{
+  width: 7em;
+  height: auto;
+  padding: 0.8em;
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 800;
+  border: 0.01em solid;
+  border-radius: 0.5em;
+}
+
+main{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  
+}
+
+.title{
+  width: 40%;
+  height: auto;
+}
+
+.title h1{
+  font-size: 5.5em;
+  line-height: 0.9em;
+}
+
+.title p{
+  color: grey;
+  width: 25em;
+  height: auto;
+  margin-top: 2em;
+
+}
+
+.title button{
+  width: 11em;
+  height: auto;
+  padding: 1em;
+  margin-right: 2em;
+  font-size: 1em;
+  font-weight: 800;
+  margin-top: 2em;
+  border: 0.1em solid;
+  border-radius: 0.5em;
+}
+
+.title button:first-child{
+  background-color: var(--button-color);
+  color: white;
+}
+
+.title button:last-child{
+  color: grey;
+}
+
+.align{
+  vertical-align: middle;
+}
+
+.social-logo img{
+  aspect-ratio: 1/1;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
