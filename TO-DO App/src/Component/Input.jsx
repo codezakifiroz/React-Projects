@@ -23,7 +23,7 @@ function Input(props) {
             />
             <input type="submit" value="+"
                 onClick={addTask}
-                className='bg-red-500 w-[3rem] h-[3rem] ml-[1rem] text-white p-[0.1rem] rounded-[0.5rem] text-[1.5rem] font-semibold'
+                className='bg-red-500 w-[3rem] h-[3rem] ml-[1rem] text-white p-[0.1rem] rounded-[0.5rem] text-[1.5rem] font-semibold '
             />
         </div>
     )
